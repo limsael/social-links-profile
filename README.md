@@ -9,9 +9,9 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Screenshot](./assets/images/Screenshot.png)
   - [Links](#links)
 - [My process](#my-process)
-  - [sass/scss](#built-with)
-  - [Variable Fonts](#what-i-learned)
-  - [Modzilla Developper Network](#useful-resources)
+  - [sass/scss](https://sass-lang.com/)
+  - [Variable Fonts](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts)
+  - [Modzilla Developper Network](https://developer.mozilla.org/en-US/)
 - [Salim Touré](https://github.com/limsael)
 
 ## Overview
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://your-solution-url.com)
+- Live Site URL: [Live Site URL](https://limsael.github.io/social-links-profile/)
 
 ## My process
 
@@ -67,8 +67,8 @@ a {
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN](https://developer.mozilla.org/en-US/) - This helped me for CSS Grid & CSS Flexbox.
+- [Google Fonts](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts) - This is an amazing article which helped me finally understand variable fonts. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
