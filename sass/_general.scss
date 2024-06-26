@@ -1,0 +1,31 @@
+$green: hsl(75, 94%, 57%);
+$white: hsl(0, 0%, 100%);
+$grey: hsl(0, 0%, 20%);
+$dark-grey: hsl(0, 0%, 12%);
+$black: hsl(0, 0%, 8%);
+
+$normal-eight: 400;
+$medium-weight: 600;
+$bold-weights: 700;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $black;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}

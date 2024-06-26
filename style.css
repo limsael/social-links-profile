@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  display: grid;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 12%);
+}
+.card__header {
+  display: grid;
+}
+.card__image {
+  padding-top: 1rem;
+}
+.card__image img {
+  border-radius: 50%;
+}
+.card__name {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0;
+}
+.card__town {
+  color: hsl(75, 94%, 57%);
+  margin-top: 5px;
+}
+.card__job {
+  color: hsl(0, 0%, 100%);
+}
+.card__menu {
+  display: grid;
+  width: 100%;
+}
+.card__menu a {
+  display: inline-block;
+  width: 100%;
+  margin-block: 5px;
+  padding: 10px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.card__menu a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .card {
+    padding: 1rem 3rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

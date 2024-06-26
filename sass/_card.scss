@@ -1,0 +1,64 @@
+.card {
+  display: grid;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  background-color: $dark-grey;
+
+  &__header {
+    display: grid;
+  }
+  &__image {
+    padding-top: 1rem;
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  &__name {
+    color: $white;
+    margin-bottom: 0;
+  }
+
+  &__town {
+    color: $green;
+    margin-top: 5px;
+  }
+
+  &__job {
+    color: $white;
+  }
+
+  &__menu {
+    display: grid;
+    width: 100%;
+
+    a {
+      display: inline-block;
+      width: 100%;
+      margin-block: 5px;
+      padding: 10px;
+      background-color: $grey;
+      color: $white;
+      border-radius: 8px;
+      transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+
+      &:hover {
+        background-color: $green;
+        color: $black;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    padding: 1rem 3rem;
+  }
+}
