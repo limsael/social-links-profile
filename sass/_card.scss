@@ -9,8 +9,10 @@
     display: grid;
   }
   &__image {
-    padding-top: 1rem;
     img {
+      width: 100px;
+      height: auto;
+      object-fit: cover;
       border-radius: 50%;
     }
   }
@@ -23,10 +25,12 @@
   &__town {
     color: $green;
     margin-top: 5px;
+    font-weight: 600;
   }
 
   &__job {
     color: $white;
+    font-weight: 600;
   }
 
   &__menu {
@@ -40,6 +44,7 @@
       padding: 10px;
       background-color: $grey;
       color: $white;
+      font-weight: 700;
       border-radius: 8px;
       transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
@@ -59,6 +64,6 @@
 
 @media screen and (min-width: 992px) {
   .card {
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
   }
 }
