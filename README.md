@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/social-links-profile-using-html-and-css-GMyy8CwyG0)
 - Live Site URL: [Live Site URL](https://limsael.github.io/social-links-profile/)
 
 ## My process
